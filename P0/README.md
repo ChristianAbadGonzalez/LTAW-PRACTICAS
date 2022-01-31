@@ -41,3 +41,15 @@ a) Imagen: Ejercicio2-img1.gif
 b) Imagen: Ejercicio2-img2.jpg
 
 *************************************************************************************************************************************
+
+*************************************************************************************************************************************
+
+ACTIVIDAD NO GUIADA 3
+
+a) Elimina el fichero prueba4.txt del repositorio, que añadiste en el ejercicio 1. Haz un commit con este cambio.
+
+b) Mover un fichero de una carpeta a otra implica dos operaciones: una de eliminación y otra de añadir un fichero nuevo . Mueve los ficheros prueba1.txt , prueba2.txt y prueba3.txt a la carpeta Prueba que deberás crear dentro de P0. Haz un commit con todos los cambios del apartado b
+
+Consejo: Crea primero el directorio Prueba (Los directorios sueltos, sin ficheros dentro, no son elementos que se puedan subir al repositorio). Mueve los ficheos al nuevo directorio, desde el navegador de archivos. Acepta los cambios en VSCode, haz el commit y luego el push
+
+*************************************************************************************************************************************
