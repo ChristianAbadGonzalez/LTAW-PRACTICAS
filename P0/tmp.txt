@@ -1,0 +1,2 @@
+Estamos ante un fichero temporal, el cual vamos a subir al repositorio mediante un commit y un push.
+
