@@ -5,3 +5,7 @@
 2º Vamos a guardar el nuevo fichero mediante CTRL + S.
 
 3º Vamos a realizar un commit del nuevo archivo y lo vamos a subir al repositorio.
+
+4º Actualización del repositorio realizada. Esto es una nueva actualización mediante commit y push al repositorio.
+
+5º Adios.
