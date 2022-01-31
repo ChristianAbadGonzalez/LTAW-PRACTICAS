@@ -10,6 +10,6 @@ Hola mundo, esta en mi primera modificación en VSCode..!!
 
 ***********************************************************************************
 
-** Actualización de LA Práctica P0 del repositorio de LTAW-PRÁCTICAS-21-22. **
+** Actualización de la Práctica P0 del repositorio de LTAW-PRÁCTICAS-21-22. **
 
 ***********************************************************************************
