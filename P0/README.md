@@ -67,3 +67,7 @@ a) agregue en el fichero README.md de la carpeta P0 la siguiente línea al final
 b) Haz el commit y súbelo al repositorio
 
 c) Entra en tu repositorio remoto de github con el navegador, y ve hasta la carpeta P0. Observa lo que ha ocurrido...
+
+*************************************************************************************************************************************
+
+![](Ejercicio2-img1.gif)
