@@ -1,2 +1,4 @@
 Estamos ante un fichero temporal, el cual vamos a subir al repositorio mediante un commit y un push.
 
+Sin embargo, este fichero creado, seguidamente vamos a eliminarlo del repositorio, pero los commit de creacion
+del archivo van a quedar en constancia y no se van a borrar.
