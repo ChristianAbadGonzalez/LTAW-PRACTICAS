@@ -13,3 +13,20 @@ Hola mundo, esta en mi primera modificación en VSCode..!!
 ** Actualización de la Práctica P0 del repositorio de LTAW-PRÁCTICAS-21-22. **
 
 ***********************************************************************************
+
+***********************************************************************************
+
+Hola Repositorio. Estamos ante las ACTIVIDADES NO GUIADAS mandadaS por el profesor, en la cual se nos indica los siguientes enunciados:
+
+*************************************************************************************************************************************
+
+ACTIVIDAD NO GUIADA 1
+
+a) Crea los ficheros de texto prueba1.txt , prueba2.txt , prueba3.txt y prueba4.txt desde el VSCode. 
+Mete en cada uno de ellos un texto cualquiera, de la longitud que quieras
+
+b) Haz un único commit añadiendo estos 4 ficheros
+
+c) Sincroniza el repositorio y comprueba que los 4 ficheros se han subido, y que efectivamente todos forman parte de un único commit
+
+*************************************************************************************************************************************
