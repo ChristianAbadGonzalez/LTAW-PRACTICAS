@@ -53,3 +53,17 @@ b) Mover un fichero de una carpeta a otra implica dos operaciones: una de elimin
 Consejo: Crea primero el directorio Prueba (Los directorios sueltos, sin ficheros dentro, no son elementos que se puedan subir al repositorio). Mueve los ficheos al nuevo directorio, desde el navegador de archivos. Acepta los cambios en VSCode, haz el commit y luego el push
 
 *************************************************************************************************************************************
+
+*************************************************************************************************************************************
+
+ACTIVIDAD NO GUIADA 4
+
+a) agregue en el fichero README.md de la carpeta P0 la siguiente línea al final:
+
+*** ![](Ejercicio2-img1.gif) ***
+
+(El nombre del fichero debe ser el mismo que el ejercicio 2)
+
+b) Haz el commit y súbelo al repositorio
+
+c) Entra en tu repositorio remoto de github con el navegador, y ve hasta la carpeta P0. Observa lo que ha ocurrido...
