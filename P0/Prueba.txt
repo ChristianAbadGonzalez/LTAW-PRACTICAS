@@ -1,0 +1,7 @@
+*** Fichero de Prueba ***
+
+1º Acabamos de crear un nuevo fichero desde el programa de Visual Studio Code.
+
+2º Vamos a guardar el nuevo fichero mediante CTRL + S.
+
+3º Vamos a realizar un commit del nuevo archivo y lo vamos a subir al repositorio.
