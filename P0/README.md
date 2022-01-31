@@ -30,3 +30,14 @@ b) Haz un único commit añadiendo estos 4 ficheros
 c) Sincroniza el repositorio y comprueba que los 4 ficheros se han subido, y que efectivamente todos forman parte de un único commit
 
 *************************************************************************************************************************************
+
+*************************************************************************************************************************************
+
+ACTIVIDAD NO GUIADA 2
+
+Sube estas dos imágenes al repositorio, cada una con su propio commit:
+
+a) Imagen: Ejercicio2-img1.gif
+b) Imagen: Ejercicio2-img2.jpg
+
+*************************************************************************************************************************************
