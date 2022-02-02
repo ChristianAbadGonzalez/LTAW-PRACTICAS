@@ -103,3 +103,52 @@ En el **Nivel 3** se hallan un total de **7 elementos:**
         6. Nombre.   
         7. Asignatura.
 ***
+## EJERCICIO 3  
+1. Escribe el documento en SGML que representa esa estructura  
+
+![](EJERCICIO3A.jpg)
+
+2. ¿Cuántos elementos hay en total?  
+
+Tenemos un total de **11 Elementos** en la creación de este **archivo SGML** 
+
+3. ¿Cuántos elementos terminales hay?. Indica sus valores  
+
+Existen **5 Elementos Terminales:**  
+
+**Nivel 2:**  
+        1. Texto 5. 
+
+**Nivel 3**  
+        1. Texto 3. 
+
+**Nivel 4**  
+        1. Texto 2.   
+        2. Texto 4.   
+
+**Nivel 5**  
+        1. Texto 1. 
+
+4. ¿Cuántos elementos no terminales hay? Indica cuántos hay en cada nivel.  
+
+Existen **6 Elementos NO Terminales:**  
+
+**Nivel 0**  
+        1. Generic.
+
+**Nivel 1**  
+        1. Contenedor. 
+
+**Nivel 2**  
+        1. Contenedor.  
+
+**Nivel 3**  
+        1. Contenedor. 
+        2. Contenedor.
+
+**Nivel 4**  
+        1. Contenedor. 
+
+5. ¿Cuantos elementos hay en el nivel 5? Indica sus nombres  
+
+En el **Nivel 5** solo existe un unico **Elemento de tipo Terminal**, que es:  **Texto 1**
