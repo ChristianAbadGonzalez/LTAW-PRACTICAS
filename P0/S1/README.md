@@ -49,3 +49,57 @@ En este código que tenemos adjuntado tiene:
 7. Dibuja la estructura en árbol que define este documento.  
 
 ***  
+## EJERCICIO 2  
+1. Escribe el documento en SMGL que representa esa estructura.  
+
+        <!DOCTYPE urjc_ML SYSTEM "urjc_ml.dtd">
+        <Universidad_Rey_Juan_Carlos>
+                <Escuela>
+                        <Nombre>ETSI TELECOMUNICACIÓN</Nombre>
+                        <Grado1>
+                                <Nombre>Ingeniería de Sistemas Audivisuales y Multimedia</Nombre>
+                                <Asignatura1>LTAW</Asignatura1>
+                                <Asignatura2>CSAI</Asignatura2>
+                                <Asignatura3>ASA II</Asignatura3>
+                        </Grado1>
+                        <Grado2>
+                                <Nombre>Ingeniería de Robótica Software</Nombre>
+                                <Asignatura1>AC</Asignatura1>
+                        </Grado2>
+                </Escuela>
+        </Universidad_Rey_Juan_Carlos>  
+
+2. ¿Cuántos elementos contenedores hay? Indica sus nombres.  
+
+Los **elementos contenedores** son aquellos que tiene en su **interior** otros elementos.  
+En total hay **11 Elementos contenedores**:  
+> En el **Nivel 0:** Universidad.  
+> En el **Nivel 1:** Escuela.  
+> En el **Nivel 2:** Nombre, Grado, y Grado.  
+> En el **Nivel 3:** Nombre, Asignatura, Asignatura, Asignatura, Nombre, Asignatura
+
+3. ¿Cuántos elementos terminales hay? Indica sus valores.  
+
+Los **elementos terminales** son los que **NO** contienen otros elementos, ubicados al **final** de cada rama.  
+
+**Nivel 3:**   
+        1. "ETSI Telecomunicación".  
+
+**Nivel 4:**  
+        1. "Ingeniería en Sistemas Audiovisuales y Multimedia".  
+        2. "LTAW".  
+        3. "CSAAI".  
+        4. "ASA II".  
+        5.  "Ingeniería en Robótica Software". 
+        6. "AC"  
+
+4. ¿Cuantos elementos hay en el nivel 3? Escribe sus nombres.  
+En el **Nivel 3** se hallan un total de **7 elementos:**  
+        1. "ETSI Telecomunicación".  
+        2. Nombre.  
+        3. Asignatura.  
+        4. Asignatura.  
+        5. Asignatura.  
+        6. Nombre.   
+        7. Asignatura.
+***
