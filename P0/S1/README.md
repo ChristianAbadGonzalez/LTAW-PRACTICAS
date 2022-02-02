@@ -27,7 +27,19 @@
 
 4. ¿Qué hace la tercera línea?  
 
+        La tercera línea que vemos en el código, se trata de una imagen, la cuál está comentada.  
+        
+        Por lo tanto, dicha línea no tiene ninguna función activa que se pueda ejecutar alguna acción.  
+
+
 5. ¿Cuantas etiquetas de apertura hay? ¿Cuantas de cierre?  
+
+        En este código que tenemos adjuntado tiene tanto 9 etiquetas de apertura y 9 etiquetas de cierre.  
+
+        La etiqueta que vemos al principio, cuya función hemos definido con anterioridad, no la tenemos en cuenta,  
+        debido a que se trata de una etiqueta informativa, del lenguaje que estamos utilizando.  
+
+        Pasa lo mismo con la etiqueta que tenemos comentada, se trata de una etiqueta sin funcion alguna.  
 
 6. Dibuja el diagrama de contenedores de este documento.  
 
