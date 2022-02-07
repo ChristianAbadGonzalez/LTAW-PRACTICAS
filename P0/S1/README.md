@@ -151,4 +151,19 @@ Existen **6 Elementos NO Terminales:**
 
 5. ¿Cuantos elementos hay en el nivel 5? Indica sus nombres  
 
-En el **Nivel 5** solo existe un unico **Elemento de tipo Terminal**, que es:  **Texto 1**
+En el **Nivel 5** solo existe un unico **Elemento de tipo Terminal**, que es:  **Texto 1**  
+***
+## EJERCICIO 4  
+1. a) Su diagrama de contenedores.  
+
+2. b) Su estructura en árbol.  
+***  
+
+## EJERCICIO 5  
+Realizar la actividad pedida en el apartado Practicando markdown con VSCode (Si es que no se ha realizado ya):
+
+1. a) Crea el fichero S1.md dentro de la carpeta P0 de tu repositorio de prácticas (LTAW-PRACTICAS). Mete todos los ejemplos descritos en la sección: Markdown. Personaliza los textos, para que sean diferentes (Cada estudiante debe terer textos distintos). Súbelo al repositorio. Deberás realizar un commit por cada subapartdo probado del markdown (uno para encabezados, otro para texto y salto de línea, otro para Listas...).  
+
+2. b) Genera el fichero S1.pdf. Súbelo al repositorio
+
+### ¡NOTA! --> EJERCICIO 5 REALIZADO
