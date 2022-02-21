@@ -1,0 +1,17 @@
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+/* .categorias{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+} */
+.categorias{
+    position: absolute;
+    top: 40%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
