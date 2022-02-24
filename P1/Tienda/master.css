@@ -1,17 +1,29 @@
-.cover{
-    position: relative;
-    display: inline-block;
-    text-align: center;
+body{
+    background-image: url(images/cover.png);
+    background-size: cover;
 }
 
-/* .categorias{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-} */
-.categorias{
-    position: absolute;
-    top: 40%;
-    left: 47%;
-    transform: translate(-50%, -50%);
+#menu{
+    width: 25px;
+    height: 25px;
 }
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+#baratos{
+    margin: auto;
+    
+}
+
+/* #buenos{
+    width: 100px;
+    height: 100px;
+}
+
+#profesionales{
+    width: 100px;
+    height: 100px;
+}  */
