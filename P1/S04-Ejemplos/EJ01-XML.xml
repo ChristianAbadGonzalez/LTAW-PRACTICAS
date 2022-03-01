@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Este es nuestro primero ejemplo. Es un documento sintáxticamente correcto (bien formado), 
+     pero como NO se ha definido su gramática las herramientas automáticas 
+     no pueden saber si es un documento válido o no  -->
+
+
+<!-- Estructura de mi tienda -->
+<!-- Nodo Raiz -->
+<tienda>
+
+    <!-- Mi tienda contiene productos / articulos -->
+    <producto>
+        Un producto
+    </producto>
+
+    <producto>
+        Otro producto
+    </producto>
+
+</tienda>
