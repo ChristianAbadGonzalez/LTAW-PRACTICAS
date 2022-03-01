@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Utilizacion de dos espacios de nombres
+     para dos etiquetas productos que tienen
+     estructuras diferentes -->
+
+<tienda xmlns:t1="http://obijuan.github.io/Tienda-1"
+        xmlns:t2="http://w3c.definitions/Store/es">
+
+    <t1:producto>
+        Un producto
+    </t1:producto>
+
+    <!-- Esta etiqueta producto tiene otra estructura -->
+    <t2:producto>
+        <nombre>Otro producto</nombre>
+        <origen>España</origen>
+    </t2:producto>
+
+    <!-- En este ejemplo se han definido los prefijos t1 y t2, que se encuentran en espacios de nombres distintos. 
+         Para identificar estos espacios de nombres se puede usar cualquier cadena. 
+         Pero típicamente se usa como nomenclatura una URL. Pero esto no quiere decir que en esa URL haya algo. 
+         El analizador de XML NO se conecta a esas URLs, sino que simplemente las usa para diferenciar 
+         los espacios de nombres y que no haya ambiguedad -->
+
+</tienda>
