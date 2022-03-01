@@ -2,6 +2,7 @@
 
 <!-- Declaracion de la gramatica -->
 <!DOCTYPE tienda [
+    <!-- Al menos Ninguno, Uno o más Elementos en la tienda -->
     <!ELEMENT tienda (producto*)>
 
     <!-- El elemeto "descripcion?" es opcional -->
