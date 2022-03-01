@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Declaracion de la gramatica -->
+<!DOCTYPE tienda [
+    <!ELEMENT tienda (producto*)>
+
+    <!-- El elemeto "descripcion?" es opcional -->
+    <!ELEMENT producto (Nombre, descripcion?, stock)>
+    <!ELEMENT Nombre (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT stock (#PCDATA)>
+]>
+<tienda>
+    <producto>
+        <Nombre>Pollo Empanado</Nombre>
+        <descripcion>Carne de pollo empanizado con pan rallado</descripcion>
+        <stock>3</stock>
+    </producto>
+
+    <producto>
+        <Nombre>Croquetas de Jamon</Nombre>
+        <descripcion>Bechamel con harina y leche con trocitos de jamon recubiertas de pan rallado</descripcion>
+        <stock>30</stock>
+    </producto>
+</tienda>
