@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Definicion de mi tienda - Llamada al fichero tienda.dtd -->
+<!DOCTYPE tienda SYSTEM "tienda.dtd">
+
+<tienda>
+    <producto>
+        <nombre>Empanada de Atun</nombre>
+        <descripcion>Masa de hogaldre rellena de atun y horneada en horno de leña</descripcion>
+        <stock>50</stock>
+    </producto>
+    <producto>
+        <nombre>Empanada de Carne [Masa Pan]</nombre>
+        <descripcion>Masa de Pan rellena de carne y horneada en horno de leña</descripcion>
+        <stock>20</stock>
+    </producto>
+</tienda>
