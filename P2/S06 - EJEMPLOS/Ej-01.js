@@ -49,5 +49,7 @@ const server = http.createServer((req, res) => {
 
 });
 
+
 server.listen(PUERTO);
+
 console.log("Escuchando en puerto: " + PUERTO);
