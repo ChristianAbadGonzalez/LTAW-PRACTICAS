@@ -2,13 +2,12 @@ body{
     background-color: white;
 }
 
-img{
-    width: 10em;
-    height: 10em;
-}
-
 #home{
     width: auto;
     height: 7em;
 }
 
+#carrito{
+    width: 5em;
+    height: 5em;
+}
