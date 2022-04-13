@@ -9,14 +9,21 @@
 <body>
     <h1><img src="images/cover.png" id='cabecera'></h1>
     <form action="/procesarlogin" method="get">
-        <div id='respuesta'>
-            Nombre de usuario:
+        <div class="cuenta">
+            <p>¿Ya tienes cuenta? Inicia sesión</p>
+        </div>
+
+        <div id="respuesta">
+            Nombre:
             <input type="text" name="nombre"/>
             <p></p>
-            <input class='button' type="submit" value="Enviar"/>
+            Contraseña:
+            <input type="text" name="nombre"/>
+            <p></p>
+            <input class='button' type="submit" value="INICIAR SESIÓN"/>
             <br>
             <br>
-            <a class='button' href="/">Página principal</a>
+            <a class='button' href="/">Acceso a página principal</a>
         </div>
     </form>
 </body>
