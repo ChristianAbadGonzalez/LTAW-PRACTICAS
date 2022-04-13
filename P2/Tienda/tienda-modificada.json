@@ -95,98 +95,72 @@
         ]
     },
     {
-        "usuarios": [   
-                        {
-                            "usuario": "root",
-                            "nombre": "Root",
-                            "email": "root@github.com",
-                            "password": "root"
-                        },
+        "usuarios": [ 
                         {
                             "usuario": "cabadgzln",
                             "nombre": "Christian",
-                            "email": "christian.abadgonzalez@gmail.com",
-                            "password": "Christian17"
+                            "email": "christian.abadgonzalez@gmail.com"
 
                         },
                         {
-                            "usuario": "sabadgzln",
-                            "nombre": "Samuel",
-                            "email": "s_1991.abadgonzalez@gmail.com",
-                            "password": "Samus1991"
-                        },
-                        {
-                            "usuario": "mluisagp62",
-                            "nombre": "MºLuisa",
-                            "email": "mluisagp62@gmail.com",
-                            "password": "Mluisa62"
-                        },
-                        {
-                            "usuario": "rmix59",
-                            "nombre": "Teodoro",
-                            "email": "rmix@gmail.com",
-                            "password": "RmixCalandraca1959"
-                        },
-                        {
-                            "usuario": "idelgado98",
-                            "nombre": "Irene",
-                            "email": "idelgado@gmail.com",
-                            "password": "Osiito0311"
+                            "usuario": "root",
+                            "nombre": "root",
+                            "email": "root@gmail.com"
                         }
                     ]
     },
     {
         "pedidos": [
-                {
-                 "usuario": "cabadgzln",
-                 "direccion": "Calle Manuel Muño Arroyo, 5",
-                 "tarjeta": "1234 5678 0100 2022",
-                  "productos": [
-                        "",
-                        " MSI GF63 Thin 11SC-440XES x 1",
-                        ""
-                    ]   
-                },
-                {
-                    "usuario": "sabadgzln",
-                    "dirección": "Calle Asombro de Damasco, 20",
-                    "tarjeta": "9876 5432 1001 2022",
-                    "productos": [
-                        "",
-                        "Asus Rog Strix SCAR 17 G733QS-K4170T x 1",
-                        ""
+                        {
+                            "usuario": "cabadgzln",
+                            "dirección": "Calle Manuel Muiño Arroyo, 5",
+                            "tarjeta": "1234 5678 0100 2022",
+                            "productos": [
+                                "",
+                                " MSI GF63 Thin 11SC-440XES x 1",
+                                ""
+                            ]
+                        },
+                        {
+                            "usuario": "sabadgzln",
+                            "dirección": "Calle Asombro de Damasco, 20",
+                            "tarjeta": "9876 5432 1001 2022",
+                            "productos": [
+                                "",
+                                "Asus Rog Strix SCAR 17 G733QS-K4170T x 1",
+                                ""
+                            ]
+                        },
+                        {
+                            "usuario": "mluisagp62",
+                            "dirección": "Calle Paulina Odiaga, 15",
+                            "tarjeta": "4561 3215 8975 2022",
+                            "productos": [
+                                "",
+                                "Apple Macbook Pro x 1",
+                                ""
+                            ]
+                        },
+                        {
+                            "usuario": "rmix59",
+                            "dirección": "Calle Athos, 19",
+                            "tarjeta": "4800 0100 5985 2022",
+                            "productos": [
+                                "",
+                                "Asus VivoBook Pro 15 M3500QC-KJ161T x 1",
+                                ""
+                            ]
+                        },
+                        {
+                            "usuario": "idelgado98",
+                            "dirección": "Calle Porthos, 11",
+                            "tarjeta": "1643 9273 5000 2022",
+                            "productos": [
+                                "",
+                                "MSI GWS63 8SL-013ES Vpro x 1",
+                                ""
+                            ]
+                        }
                     ]
-                },
-                {
-                    "usuario": "mluisagp62",
-                    "dirección": "Calle Paulina Odiaga, 15",
-                    "tarjeta": "4561 3215 8975 2022",
-                    "productos": [
-                        "",
-                        "Apple Macbook Pro x 1",
-                        ""
-                    ]
-                },
-                {
-                    "usuario": "rmix59",
-                    "dirección": "Calle Athos, 19",
-                    "tarjeta": "4800 0100 5985 2022",
-                    "productos": [
-                        "",
-                        "Asus VivoBook Pro 15 M3500QC-KJ161T x 1",
-                        ""
-                    ]
-                },
-                {
-                    "usuario": "idelgado98",
-                    "dirección": "Calle Porthos, 11",
-                    "tarjeta": "1643 9273 5000 2022",
-                    "productos": [
-                        "",
-                        "MSI GWS63 8SL-013ES Vpro x 1",
-                        ""
-                    ]
-                }
-            ]
     }
 ]
