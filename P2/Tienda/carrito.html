@@ -8,11 +8,23 @@
 </head>
 <body>
     <h1><img src="images/cover.png" id='cabecera'></h1>
-    <div id = "respuesta">
-        PRODUCTOS
-        <br>
-        <a class= "elemen" href="/pedido">Finalizar compra</a>
-        <a class="elemen" href="/">Acceso a pagina principal</a>
+    <div class="cuenta">
+        <p id="titulo">MI CESTA</p>
+    </div>
+
+    <div class="cuenta">
+        <div id="productos">
+            PRODUCTOS
+        </div>
+    </div>
+    
+    <div id="respuesta">
+        
+        <form action="/pedido" method="get">
+            <input class="button" type="submit" value="FINALIZAR PEDIDO"/>
+        </form>
+        
+        Puede seguir comprando: <a class='button' href="/">Volver a página principal</a>
     </div>
 </body>
 </html>
