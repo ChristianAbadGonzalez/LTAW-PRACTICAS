@@ -8,7 +8,7 @@ const cart = document.getElementById('cart'),
       ver = document.getElementById('ver'),
       resultado = document.getElementById('resultado'),
       notregistered = document.getElementById('not-registered'),
-      PORT = 8000
+      PORT = 9090
 
 function init() {
   $(document).ready(function () {
