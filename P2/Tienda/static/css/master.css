@@ -96,7 +96,8 @@
   }
   
   #recurso {
-    width: 50%;
+    width: 12.5em;
+    height: 12.5em;
     border: 2px solid black;
   }
   

@@ -4,7 +4,7 @@ const http = require('http'),
       fs = require('fs'),
       PUERTO = 9090
 
-// BASES DE DATOS, A LO CUTRE
+// DEFINICIÓN DE LA BASE DE DATOS DE LOS PRODUCTOS
     // productos y precios
 let productos = {'Lenovo IdeaPad 3 15IGL05 8 GB Intel Celeron N4020 256 GB SSD': 399,
                  'Asus Chromebook Flip C214MA-BU0410 4 GB Intel Celeron N4020 32 GB eMMC': 199,
@@ -20,8 +20,9 @@ let productos = {'Lenovo IdeaPad 3 15IGL05 8 GB Intel Celeron N4020 256 GB SSD':
                  'Asus Rog Strix SCAR 17 G733QS-K4170T 64 GB AMD Ryzen 9 5900HX NVIDIA 3080 1 TB SSD + 1 TB HDD': 3319.63,
                  'HP ZBook Fury 17 G7 32 GB Intel Core i9-10885 NVIDIA Quadro RTX 5000 1 TB SSD': 5657.93,
                  'Apple Macbook Pro 16 GB Intel Core i9 Radeon Pro 5500M 1 TB SSD': 3604.28,
-                 'Acer ConceptD 7 Pro CN715-72P-798Z 32 GB Intel Core i7-10875 NVIDIA Quadro RTX 5000 1 TB SSD': 3181.73,},
-    // ejemplo de cookie vacia
+                 'Acer ConceptD 7 Pro CN715-72P-798Z 32 GB Intel Core i7-10875 NVIDIA Quadro RTX 5000 1 TB SSD': 3181.73,
+                },
+    // ESTANDARIZACION DE LAS COOKIES QUE SE INSERTAN.
     user_template = {'password': '',
                      'cart':{
                        'Lenovo IdeaPad 3 15IGL05 8 GB Intel Celeron N4020 256 GB SSD': 0,
@@ -58,7 +59,7 @@ const server = http.createServer((req, res) => {
 
   switch (ext) {
     case '':
-      filename = './layout/index.html'
+      filename = './layout/tienda.html'
       mime = 'text/html'
       code = 200
       break
@@ -66,7 +67,7 @@ const server = http.createServer((req, res) => {
       if (req.method == 'POST') {
         req.on('data', chunk => {
           data = chunk.toString()
-          console.log(data)
+          //console.log(data)
           let new_user = true,
               cname = '',
               name = data.split('&')[0].split('=')[1]
@@ -147,7 +148,9 @@ const server = http.createServer((req, res) => {
       }
       break
     case 'buy':
+      console.log(req.method);
       if (req.method == 'POST') {
+        console.log("holii..")
         req.on('data', chunk => {
           let data = chunk.toString(),
               content = '',
@@ -155,16 +158,22 @@ const server = http.createServer((req, res) => {
               name = data.split('&')[0].split('=')[1],
               prod = data.split('&')[1].split('=')[1].replace(/[+]/gi,' ')
           if (cookie) {
+            console.log("holiiiiii.....")
             for (var i = 0; i < cookie.split('; ').length; i++) {
               cname = cookie.split('; ')[i].split('=')[0]
+              console.log(cname);
               if (cname == name) {
+                console.log("holiiiiii....dsasgzfb.")
                 content = name + '='
                 let cart = JSON.parse(cookie.split('; ')[i].split('=')[1])
                 cart.cart[prod] += 1
                 cart.cart.total = Math.round((cart.cart.total + productos[prod])*100)/100
                 content += JSON.stringify(cart)
+                console.log(content);
               }
             }
+          }else{
+            console.log("Hola");
           }
           if (content) {
             res.setHeader('Set-Cookie', content)
@@ -217,8 +226,14 @@ const server = http.createServer((req, res) => {
       break
     
     case 'jpg':
+      filename = './static/images' + q.pathname
+      mime = 'images/' + ext
+      break;
     
     case 'png':
+      filename = './static/images' + q.pathname
+      mime = 'images/' + ext
+      break;
     
     case 'ico':
       filename = './static/images' + q.pathname
@@ -243,7 +258,7 @@ const server = http.createServer((req, res) => {
       //
   }
   
-  console.log('request: ' + q.pathname + '\n\n')
+  ////console.log('request: ' + q.pathname + '\n\n')
   
   if (q.pathname.toLowerCase().indexOf('action.') == -1 || q.pathname.toLowerCase().indexOf('show_cart') != -1 || q.pathname.toLowerCase().indexOf('register_form') != -1) {
     fs.readFile(filename, (err, data) => {
@@ -260,4 +275,4 @@ const server = http.createServer((req, res) => {
   }
 }).listen(PUERTO)
 
-console.log('Servidor en: http://localhost:' + PUERTO + '/')
+////console.log('Servidor en: http://localhost:' + PUERTO + '/')
