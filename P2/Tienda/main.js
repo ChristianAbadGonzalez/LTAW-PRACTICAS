@@ -67,7 +67,7 @@ const server = http.createServer((req, res) => {
       if (req.method == 'POST') {
         req.on('data', chunk => {
           data = chunk.toString()
-          //console.log(data)
+          console.log(data)
           let new_user = true,
               cname = '',
               name = data.split('&')[0].split('=')[1]
@@ -150,7 +150,6 @@ const server = http.createServer((req, res) => {
     case 'buy':
       console.log(req.method);
       if (req.method == 'POST') {
-        console.log("holii..")
         req.on('data', chunk => {
           let data = chunk.toString(),
               content = '',
@@ -158,12 +157,10 @@ const server = http.createServer((req, res) => {
               name = data.split('&')[0].split('=')[1],
               prod = data.split('&')[1].split('=')[1].replace(/[+]/gi,' ')
           if (cookie) {
-            console.log("holiiiiii.....")
             for (var i = 0; i < cookie.split('; ').length; i++) {
               cname = cookie.split('; ')[i].split('=')[0]
               console.log(cname);
               if (cname == name) {
-                console.log("holiiiiii....dsasgzfb.")
                 content = name + '='
                 let cart = JSON.parse(cookie.split('; ')[i].split('=')[1])
                 cart.cart[prod] += 1
@@ -172,8 +169,6 @@ const server = http.createServer((req, res) => {
                 console.log(content);
               }
             }
-          }else{
-            console.log("Hola");
           }
           if (content) {
             res.setHeader('Set-Cookie', content)
@@ -258,7 +253,7 @@ const server = http.createServer((req, res) => {
       //
   }
   
-  ////console.log('request: ' + q.pathname + '\n\n')
+  console.log('request: ' + q.pathname + '\n\n')
   
   if (q.pathname.toLowerCase().indexOf('action.') == -1 || q.pathname.toLowerCase().indexOf('show_cart') != -1 || q.pathname.toLowerCase().indexOf('register_form') != -1) {
     fs.readFile(filename, (err, data) => {
@@ -275,4 +270,4 @@ const server = http.createServer((req, res) => {
   }
 }).listen(PUERTO)
 
-////console.log('Servidor en: http://localhost:' + PUERTO + '/')
+console.log('Servidor en: http://localhost:' + PUERTO + '/')
