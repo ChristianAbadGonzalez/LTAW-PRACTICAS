@@ -1,0 +1,9 @@
+{
+    "name": "ejemplo-2",
+    "description": "Mi primer proyecto",
+    "version": "0.0.1",
+    "author": "Christian Abad González (@christianabaddj)",
+    "main": "EJ-02.js",
+    "license": "GPL-3.0"
+    
+}
