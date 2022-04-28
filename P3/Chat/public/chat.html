@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./chat.css">
+    
+    <title>PC MARKET</title>
+
+    <!-- Cargar la biblioteca Socket.IO. Nos la debe entregar el servidor -->
+    <script src="/socket.io/socket.io.js"></script>
+
+    <!-- Cliente que usa los Sockets.io-->
+    <script src="client.js" defer></script>
+
+</head>
+<body onload="init()">
+    <div id="title">CHAT PC-MARKET</div>
+
+    <div id="register-panel">
+        <input id="name" value="" placeholder="Nick" autocomplete="off"/>
+        <button type="button" id="register">START CHATTING</button>
+    </div>
+
+    <p id="line"></p>
+
+    <div class="container">
+        <div id="received">
+            <br>
+            <p id="display"></p>
+        </div>
+        
+        <div id="send-mess">
+            <input id="msg" autocomplete="off"/>
+            <button type="button" id="send">SEND</button>
+        </div>
+    </div>
+    <audio id="musica" src="/public/sonido.mp3"></audio>
+    
+</body>
+</html>
