@@ -1,0 +1,26 @@
+<!-- El comando que utilizaremos para las pruebas es wscat, que nos permite enviar datos usando Websockets, así como recibirlos. 
+     Es un paquete de node que se puede instalar a través de npm: -->
+
+<!-- npm install -g wscat -->
+
+<!-- Hay que instalarlo con el flag -g para que se instale globalmente y poder usarlo como cualquier otro comando -->
+
+<!-- EJERCICIO 1: Conexión al websocket ws://websocket-echo.com -->
+
+<!-- Para probar que funciona correctamente el comando wscat vamos a conectarnos a este Websocket: ws://echo.websocket.org. 
+     Es un servidor de Eco alojado en la página WebSocket.org. Todos los datos que reciba los enviará de vuelta. 
+     Este tipo de servidores son muy útiles para hacer pruebas -->
+
+<!-- wscat --slash -P -c ws://websocket-echo.com -->
+
+<!-- Hemos usado los siguientes parámetros:
+
+    * -P : Imprimir una notificación cuando se recibe un mensaje Ping o Pong
+    * --slash: Permite enviar tramas de control de Websocket con /ping, /pong y /close
+    * -c: Configurar como cliente.
+
+-->
+
+<!-- Al ejecutarlo se conecta al Websocket y nos permite enviar los mensajes de texto que escribamos. 
+     Las notificaciones y mensajes recibidos se muestran en azul. En este pantallazo vemos un ejemplo de uso: -->
+
