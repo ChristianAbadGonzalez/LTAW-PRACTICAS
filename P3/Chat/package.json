@@ -1,6 +1,29 @@
 {
+  "name": "chat-pc-market",
+  "description": "Servidor Web de PC-MARKET a disposición de los usuarios que lo quieran utilizar.",
+  "keywords": [
+                "ltaw", 
+                "test"
+              ],
+  "version": "0.0.1",
+  "author": "Christian Abad González",
+  "main": "server.js",
+  "devDependencies": {},
+  "license": "GPL-3.0",
+  "repository": {
+                  "type": "git",
+                  "url": "https://github.com/ChristianAbadGonzalez/LTAW-Practicas"
+                },
+
+  "scripts": {
+                "start": "node server.js",
+                "test": "node -v"
+            },  
+                        
   "dependencies": {
     "express": "^4.18.1",
+    "start": "^5.1.0",
+    "test": "^0.6.0",
     "websocket": "^1.0.34"
   }
 }
