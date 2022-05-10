@@ -1,0 +1,24 @@
+body{
+    background-image: url(images/cover.png);
+    background-size: cover;
+    text-align: center;
+    font-family: 30px;
+}
+
+#header {
+    font-size: 50px;
+}
+  
+.img-header {
+    width: 150px;
+}
+  
+img {
+    width: 25%;
+}
+  
+#recurso {
+    width: 12.5em;
+    height: 12.5em;
+    border: 2px solid black;
+}
